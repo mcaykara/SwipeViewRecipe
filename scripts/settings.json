@@ -1,0 +1,13 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "swipeviewTheme",
+			"themes": [
+				"defaultTheme",
+				"swipeviewTheme"
+			],
+			"baseTheme": "swipeviewTheme"
+		},
+		"version": "6.10.2"
+	}
+}

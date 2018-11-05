@@ -1,0 +1,25 @@
+{
+	".dotIndicator": {
+		"&-main": {
+			"height": 10,
+			"width": 42,
+			"backgroundColor": "rgba( 255, 255, 255, 0 )",
+			"flexProps": {
+				"flexDirection": "ROW"
+			}
+		},
+		"&-item": {
+			"width": 10,
+			"height": 10,
+			"borderRadius": 5,
+			"marginLeft": 2,
+			"marginRight": 2,
+			".inactive": {
+				"backgroundColor": "#D8D8D8"
+			},
+			".active": {
+				"backgroundColor": "#1775D0"
+			}
+		}
+	}
+}

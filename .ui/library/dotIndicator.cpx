@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"className": ".flexLayout .dotIndicator-main",
+			"hiddenComponent": false,
+			"id": "e6d1-11f2-d9ae-0713",
+			"props": {
+				"children": [
+					"dd6e-fb7f-5eeb-0115",
+					"f4f6-1f29-230f-e9ec",
+					"cca4-3603-c17e-c597"
+				],
+				"name": "dotIndicator",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignItems": "AUTO",
+					"justifyContent": "CENTER"
+				},
+				"height": 10,
+				"left": 104.43037974683544,
+				"top": 234.43037588385087,
+				"width": 163.33333333333334
+			}
+		},
+		{
+			"className": ".flexLayout .dotIndicator-item.inactive",
+			"id": "dd6e-fb7f-5eeb-0115",
+			"props": {
+				"children": [],
+				"name": "dot0",
+				"parent": "e6d1-11f2-d9ae-0713"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".flexLayout .dotIndicator-item.inactive",
+			"id": "f4f6-1f29-230f-e9ec",
+			"props": {
+				"children": [],
+				"name": "dot1",
+				"parent": "e6d1-11f2-d9ae-0713"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".flexLayout .dotIndicator-item.active",
+			"id": "cca4-3603-c17e-c597",
+			"props": {
+				"children": [],
+				"name": "dot2",
+				"parent": "e6d1-11f2-d9ae-0713"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

@@ -1,0 +1,100 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "6529-b718-b4e1-9635",
+			"initialized": true,
+			"props": {
+				"children": [
+					"4a90-fdaa-2542-776a",
+					"c88a-0de0-e9df-627f",
+					"b75a-0e8a-93a5-6fd2",
+					"da26-eb8d-8001-e772"
+				],
+				"name": "demo",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "6.10.2"
+		},
+		{
+			"className": ".statusBar",
+			"id": "4a90-fdaa-2542-776a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "6529-b718-b4e1-9635"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".headerBar",
+			"id": "c88a-0de0-e9df-627f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "6529-b718-b4e1-9635",
+				"title": "SwipeView Demo"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "SwipeView Demo"
+			}
+		},
+		{
+			"className": ".flexLayout .dotIndicator-main",
+			"hiddenComponent": false,
+			"id": "da26-eb8d-8001-e772",
+			"props": {
+				"children": [],
+				"name": "dotIndicator",
+				"parent": "6529-b718-b4e1-9635",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__",
+				"type": "dotIndicator",
+				"id": "e6d1-11f2-d9ae-0713"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"alignItems": 0,
+					"justifyContent": 1,
+					"positionType": 0
+				},
+				"flexProps": {
+					"alignItems": "AUTO",
+					"justifyContent": "CENTER",
+					"positionType": "RELATIVE"
+				},
+				"height": 10,
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".flexLayout",
+			"id": "b75a-0e8a-93a5-6fd2",
+			"props": {
+				"children": [],
+				"name": "swipeViewLayout",
+				"parent": "6529-b718-b4e1-9635",
+				"usePageVariable": true
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": 300,
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

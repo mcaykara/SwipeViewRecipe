@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "ac0f-d32e-0bfe-4e2d",
+			"initialized": true,
+			"props": {
+				"children": [
+					"52a0-7095-61e9-4cb8",
+					"f9d9-4fed-2c57-ec27",
+					"eecc-95c5-bb9a-25d1"
+				],
+				"name": "swipeViewTemplatePage",
+				"orientation": "AUTO",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"orientation": "AUTO"
+			},
+			"version": "6.10.2"
+		},
+		{
+			"className": "",
+			"id": "52a0-7095-61e9-4cb8",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "ac0f-d32e-0bfe-4e2d"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"visible": false
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "f9d9-4fed-2c57-ec27",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "ac0f-d32e-0bfe-4e2d",
+				"title": "newPage002"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "newPage002",
+				"visible": false
+			}
+		},
+		{
+			"className": ".imageView",
+			"id": "eecc-95c5-bb9a-25d1",
+			"props": {
+				"children": [],
+				"name": "img",
+				"parent": "ac0f-d32e-0bfe-4e2d",
+				"usePageVariable": true
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": null,
+				"imageFillType": "ASPECTFIT",
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}
