@@ -14,7 +14,6 @@ Application.onUnhandledError = function(e) {
 
 require("sf-extension-utils");
 require("./theme");
-const Router = require("sf-core/ui/router");
 const Network = require("sf-core/device/network");
 var notifier = new Network.createNotifier();
 
@@ -25,6 +24,23 @@ notifier.subscribe((connectionType) => {
 });
 
 // Define routes and go to initial page of application
-Router.add("demo", "pages/demo");
-Router.add("swipeViewPageFactory", "pages/swipeViewPageFactory");
-Router.go("demo");
+const {
+    NativeRouter: Router,
+    Route
+} = require("@smartface/router");
+
+const router = Router.of({
+    path: "/",
+    isRoot: true,
+    routes: [
+        Router.of({
+            path: "/demo",
+            build: (router, route) => {
+                let pgDemo = require("pages/demo");
+                return new pgDemo;
+            }
+        })
+    ]
+});
+
+router.push("/demo");
